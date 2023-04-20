@@ -32,11 +32,14 @@ section {
 	display: grid;
 	grid-template-columns: 100%;
 	max-width: 550px;
-	margin: 0px auto;
-    margin-top: 100px;
 	border-radius: 8px;
 	overflow: hidden;
 	box-shadow: 0px 0px 14px 1px #00000024;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 .item {
 	padding: 30px;
