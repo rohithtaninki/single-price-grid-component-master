@@ -32,7 +32,8 @@ section {
 	display: grid;
 	grid-template-columns: 100%;
 	max-width: 550px;
-	margin: 100px auto;
+	margin: 0px auto;
+    margin-top: 100px;
 	border-radius: 8px;
 	overflow: hidden;
 	box-shadow: 0px 0px 14px 1px #00000024;
